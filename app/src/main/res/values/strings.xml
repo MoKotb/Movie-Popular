@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Popular Movies</string>
+    <string name="menuMostPopular">Most Popular</string>
+    <string name="menuTopRated">Top Rated</string>
+    <string name="sharedKey">MoviesType</string>
+    <string name="noConnection">Oops !\nPlease Check Your Internet Connection</string>
+    <string name="Favorite">Mark As Favorite</string>
+    <string name="favouriteMenu">Favourite</string>
+    <string name="date">Date : </string>
+    <string name="rate">Rating : </string>
+    <string name="ratingNumber">/10</string>
+    <string name="removeFromFavourite">Remove From Favorites</string>
+    <string name="DeletedSuccessfully">Deleted Successfully</string>
+    <string name="AddedSuccessfully">Added Successfully</string>
+    <string name="popular">popular</string>
+    <string name="top_rated">top_rated</string>
+    <string name="userFavourite">favorite</string>
+    <string name="MoviesList">MoviesList</string>
+    <string name="Movie">Movie</string>
+    <string name="videos">videos</string>
+    <string name="reviews">reviews</string>
+    <string name="videosList">videosList</string>
+</resources>

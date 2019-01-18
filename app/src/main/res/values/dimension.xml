@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="padding1">8dp</dimen>
+    <dimen name="padding2">16dp</dimen>
+    <dimen name="fontSize1">22sp</dimen>
+    <dimen name="fontSize2">18sp</dimen>
+    <dimen name="fontSize3">14sp</dimen>
+    <dimen name="imageSize1">342dp</dimen>
+    <dimen name="imageSize2">200dp</dimen>
+    <dimen name="imageSize3">150dp</dimen>
+    <dimen name="zeroDP">0dp</dimen>
+    <dimen name="imageHeight">250dp</dimen>
+    <dimen name="videoHeight">60dp</dimen>
+</resources>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context="com.kotb.popularmovies.Activities.DetailsActivity">
+
+        <ImageView
+            android:id="@+id/backgroundImage"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/imageSize3"
+            android:scaleType="fitXY"
+            android:src="@drawable/placeholder" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="@dimen/padding1">
+
+            <ImageView
+                android:id="@+id/movieImage"
+                android:layout_width="@dimen/zeroDP"
+                android:layout_height="@dimen/imageHeight"
+                android:layout_weight="1"
+                android:paddingLeft="@dimen/zeroDP"
+                android:paddingRight="@dimen/padding1"
+                android:scaleType="fitXY"
+                android:src="@drawable/placeholder" />
+
+            <LinearLayout
+                android:layout_width="@dimen/zeroDP"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:paddingLeft="@dimen/padding1"
+                android:paddingRight="@dimen/padding1">
+
+                <TextView
+                    android:id="@+id/movieTitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/padding2"
+                    android:fontFamily="@font/dosis_bold"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="@dimen/fontSize1" />
+
+                <TextView
+                    android:id="@+id/movieDate"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/padding1"
+                    android:fontFamily="@font/dosis_regular"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="@dimen/fontSize2" />
+
+                <TextView
+                    android:id="@+id/movieRate"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/padding2"
+                    android:fontFamily="@font/dosis_regular"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="@dimen/fontSize2" />
+
+                <Button
+                    android:id="@+id/mark"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/btn_corners"
+                    android:fontFamily="@font/dosis_regular"
+                    android:text="@string/Favorite"
+                    android:textAllCaps="false" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/overview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/dosis_regular"
+            android:padding="@dimen/padding1"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/fontSize2" />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/videosRecyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/padding1" />
+
+        <TextView
+            android:id="@+id/reviews"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/dosis_regular"
+            android:padding="@dimen/padding1"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/fontSize3" />
+
+    </LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>
